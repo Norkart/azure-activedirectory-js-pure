@@ -1,13 +1,12 @@
 {
   "name": "adal-pure",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "homepage": "https://github.com/Norkart/azure-activedirectory-js-pure",
   "authors": [
     "MSOpentech", "Norkart"
   ],
   "description": "Azure Active Directory Client Library for js - PURE",
-  "main": ["./lib/adal.js"
-  ],
+  "main": ["./lib/adal.js"],
   "moduleType": [
     "node"
   ],
