@@ -1,17 +1,17 @@
 {
   "name": "adal-angular",
   "author": {
-    "name": "Microsoft",
-    "email": "nugetaad@microsoft.com",
-    "url": "https://www.microsoft.com"
+    "name": "Norkart",
+    "email": "jan-erik.vinje@norkart.no",
+    "url": "https://www.norkart.no"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AzureAD/azure-activedirectory-library-for-js.git"
+    "url": "https://github.com/Norkart/azure-activedirectory-js-pure"
   },
-  "version": "1.0.9",
-  "description": "Windows Azure Active Directory Client Library for js",
+  "version": "1.0.0",
+  "description": "Windows Azure Active Directory Client Library for js - PURE",
   "keywords": [
     "implicit",
     "js",
@@ -37,18 +37,11 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-uglify": "~0.6.0",
     "grunt-contrib-watch": "~0.2.0",
-    "grunt-karma": "^0.9.x",
     "atob": "~1.1.2",
-    "karma-chrome-launcher": "~0.1.5",
-    "karma": "~0.12.24",
-    "karma-jasmine": "~0.1.5",
     "bower": "^1.3.3",
-    "grunt-jasmine-node": "~0.2.1"
   },
   "directories": {
-    "test": "tests"
   },
   "scripts": {
-    "test": "jasmine-node tests/unit/spec"
   }
 }
