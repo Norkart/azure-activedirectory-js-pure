@@ -22,6 +22,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // jasmine node directly js api 
-    grunt.registerTask('minify', ['uglify']);
+    grunt.registerTask('default', ['uglify']);
 
 };
